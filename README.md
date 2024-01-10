@@ -11,11 +11,11 @@ go build -mod vendor -ldflags="-s -w" -o bin/aat2csv cmd/aat2csv/main.go
 
 ### aat2csv
 
-Parse Getty AAT XML data and emit as CSV data to STDOUT with following columns: id, term, preferred, languages.
+Parse Getty AAT XML data and emit as CSV data to STDOUT with the following columns: id, term, preferred, languages.
 
 ```
 $> ./bin/aat2csv -h
-Parse Getty AAT XML data and emit as CSV data to STDOUT with following columns: id, term, preferred, languages.
+Parse Getty AAT XML data and emit as CSV data to STDOUT with the following columns: id, term, preferred, languages.
 Usage:
 	 ./bin/aat2csv [options]
   -terms string

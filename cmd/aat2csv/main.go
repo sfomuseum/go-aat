@@ -19,7 +19,7 @@ func main() {
 	var terms string
 
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Parse Getty AAT XML data and emit as CSV data to STDOUT with following columns: id, term, preferred, languages.\n")
+		fmt.Fprintf(os.Stderr, "Parse Getty AAT XML data and emit as CSV data to STDOUT with the following columns: id, term, preferred, languages.\n")
 		fmt.Fprintf(os.Stderr, "Usage:\n\t %s [options]\n", os.Args[0])
 		flag.PrintDefaults()
 	}
